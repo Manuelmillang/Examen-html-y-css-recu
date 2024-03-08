@@ -5,23 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catàleg</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/33277bc95b.js" crossorigin="anonymous"></script>
     <!-- POSAU EL VOSTRE SCRIPT DE FONT AWESOME! -->
 </head>
 <body>
 
     <main class="background">
         <nav>
-            <div class="logo">
-
+            <div class="logo-click">
+                <a href="index.html" class="logo-link">
+                    <img src="/img/logo.png" alt="Logo">
+                </a>
             </div>
-            <div class="menu">
 
+            <div class="menu">
+                <div onclick="window.location.href='https://help.netflix.com/'">
+                    <i class="fas fa-question-circle"></i><br><span>FAQ</span>
+                </div>
+
+                <div onclick="window.location.href='cataleg.html'">
+                    <i class="fas fa-film"></i><br><span>Catàleg</span>
+                </div>
+
+                <div onclick="window.location.href='login.html'">
+                    <i class="fas fa-user"></i><br><span>Login</span>
+                </div>
             </div>
         </nav>
-
-        <div class="contingut">
-
-        </div>
+        <div class="contingut2">
+            <div class="gallery">
+              <a href="/img/wichero.jpg" target="_blank" class="image" style="background-image: url('/img/wichero.jpg')">
+                <div class="text2">The Witcher</div>
+              </a><br>
+              <a href="/img/interestelar.jpg" target="_blank" class="image" style="background-image: url('/img/interestelar.jpg')">
+                <div class="text2">Interestelar</div>
+              </a><br>
+              <a href="img/jojo.jpg" target="_blank" class="image" style="background-image: url('img/jojo.jpg')">
+                <div class="text2">Jojo's</div>
+              </a><br>
+              <a href="img/velocipastor.jpg" target="_blank" class="image" style="background-image: url('img/velocipastor.jpg')">
+                <div class="text2">Velociraptor</div>
+              </a><br>
+            </div>
+          </div>
+          
 
         <div class="footer">
             

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ca">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,27 +9,51 @@
     <script src="https://kit.fontawesome.com/33277bc95b.js" crossorigin="anonymous"></script>
     <!-- POSAU EL VOSTRE SCRIPT DE FONT AWESOME! -->
 </head>
+
 <body>
 
     <main class="background">
         <nav>
-            <div class="logo">
-
+            <div class="logo-click">
+                <a href="index.html" class="logo-link">
+                    <img src="/img/logo.png" alt="Logo">
+                </a>
             </div>
-            <div class="menu">
 
+            <div class="menu">
+                <div onclick="window.location.href='https://help.netflix.com/'">
+                    <i class="fas fa-question-circle"></i><br><span>FAQ</span>
+                </div>
+
+                <div onclick="window.location.href='cataleg.html'">
+                    <i class="fas fa-film"></i><br><span>Catàleg</span>
+                </div>
+
+                <div onclick="window.location.href='login.html'">
+                    <i class="fas fa-user"></i><br><span>Login</span>
+                </div>
             </div>
         </nav>
 
-        <div class="contingut">
-
-        </div>
-
-        <div class="footer">
-
+        <div class="contingut1">
+            <div class="text-center">
+                <h2><strong>Benvinguts a Netflix</strong></h2>
+                <div onclick="window.location.href='cataleg.html'">
+                    <button class="btn"><i class="fas fa-film"></i>Cataleg</button>
+                </div>
+                <div onclick="window.location.href='login.html'">
+                <button class="btn"><i class="fas fa-user"></i>Registra't</button>
+                </div>
+            </div>
         </div>
         
+        <div class="footer">
+            <p>&copy; Manuel Millan Gomez</p>
+        </div>
+        
+
     </main>
 
 </body>
+
 </html>
